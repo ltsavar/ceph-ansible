@@ -18,6 +18,8 @@
         name: ceph-defaults
     - import_role:
         name: ceph-fetch-keys
+    - import_role:
+        name: ceph-facts
 
 - hosts:
   - mons
